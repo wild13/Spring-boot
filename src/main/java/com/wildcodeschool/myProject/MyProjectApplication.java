@@ -17,10 +17,10 @@ public class MyProjectApplication {
 	@RequestMapping("/")
     @ResponseBody
     public String index() {
-        return "<ul><li><a href='http://localhost:8080/doctor/1'>name doctor 1 ?</a></li>"
-	        		+ "<li><a href='http://localhost:8080/doctor/2'>name doctor 2 ?</a></li>"
-	        		+ "<li><a href='http://localhost:8080/doctor/3'>name doctor 3 ?</a></li>"
-	        		+ "<li><a href='http://localhost:8080/doctor/4'>name doctor 4 ?</a></li>"
+        return "<ul><li><a href='http://localhost:8080/doctor/1'>name doctor 1 </a></li>"
+	        		+ "<li><a href='http://localhost:8080/doctor/2'>name doctor 2 </a></li>"
+	        		+ "<li><a href='http://localhost:8080/doctor/3'>name doctor 3 </a></li>"
+	        		+ "<li><a href='http://localhost:8080/doctor/4'>name doctor 4 </a></li>"
 	        		+ "</ul>";
     }
 
